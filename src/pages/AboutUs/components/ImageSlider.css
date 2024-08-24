@@ -1,0 +1,19 @@
+/* Styling for scroll buttons */
+.scroll-btn {
+  cursor: pointer;
+  /* ...other styles... */
+}
+
+.nomargin{
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .scroll-btn {
+      display: none;
+  }
+}
+
+

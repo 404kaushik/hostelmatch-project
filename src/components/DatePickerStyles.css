@@ -1,0 +1,65 @@
+/* DatePickerStyles.css */
+
+/* Override date picker styles */
+.react-datepicker {
+    font-family: 'Inter', sans-serif; /* Change font family */
+    border: none;
+   }
+
+   .react-datepicker__header {
+    background-color: #FFF; /* Change header background color to orange */ 
+    border-bottom: none;
+  } 
+  
+  .react-datepicker__day--selected {
+    background-color: #FEC446 !important; /* Change selected date background color to orange */
+    color: #fff; /* Change selected date text color */
+    border-radius: 50% !important;
+  }
+
+  
+  
+  .react-datepicker__day--in-range {
+    background-color: rgba(245, 158, 11, 0.2); /* Change background color of dates in the selected range */
+  }
+  
+  .react-datepicker__day--range-start,
+  .react-datepicker__day--range-end
+  {
+    border-radius: 50% !important;
+    background-color: #FEC446; /* Change background color of the start and end dates of the selected range */
+    color: #fff; /* Change text color of the start and end dates of the selected range */
+  }
+  
+  .react-datepicker__current-month {
+    color: #FEC446;
+  }
+
+  .react-datepicker__day-name {
+    color: #AAAAAA
+}
+
+/* Change color on hover */
+.react-datepicker__day:hover {
+    background-color: #fbbf24; /* Change background color on hover */
+  }
+
+  .react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range,
+  .react-datepicker__month-text--in-range,
+  .react-datepicker__quarter-text--in-range,
+  .react-datepicker__year-text--in-range) {
+    background-color: rgba(245, 158, 11, 0.2); /* Change background color of dates in the selected range */
+  }
+
+  .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+    font-weight: bold;
+  }
+
+  .react-datepicker__input-container {
+    width: inherit;
+  }
+  
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+
